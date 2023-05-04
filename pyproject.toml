@@ -15,12 +15,15 @@ torch = "^1.13.1"
 torchvision = "^0.14.1"
 ipykernel = "^6.19.4"
 transformers = {extras = ["ja"], version = "^4.28.1"}
+torchmetrics = "^0.11.4"
+black = {extras = ["jupyter"], version = "^23.3.0"}
+nbqa = "^1.7.0"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
 isort = "^5.11.4"
 mypy = "^0.991"
-black = "^22.12.0"
+black = "^23.3.0"
 
 [build-system]
 requires = ["poetry-core"]
