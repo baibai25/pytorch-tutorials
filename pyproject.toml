@@ -18,6 +18,8 @@ transformers = {extras = ["ja"], version = "^4.28.1"}
 torchmetrics = "^0.11.4"
 black = {extras = ["jupyter"], version = "^23.3.0"}
 nbqa = "^1.7.0"
+grad-cam = "^1.4.6"
+matplotlib = "^3.7.1"
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
